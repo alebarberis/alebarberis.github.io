@@ -2,24 +2,39 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.nds.ox.ac.uk/research/igf-group'>IGF Group</a>, <a href='https://www.nds.ox.ac.uk/'>NDS</a>, <a href='http://www.ox.ac.uk//'>University of Oxford</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: abarberis_small_squared.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Nuffield Department of Surgical Sciences</p>
+    <p>University of Oxford</p>
+    <p>United Kingdom</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi everyone, my name is Alessandro and I am a senior bioinformatician working in the Nuffield Department of Surgical Sciences.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## biography
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I graduated from the [University of Pavia](http://wcm-3.unipv.it/site/en/home.html) (Italy) in Computer Science Engineering with a Thesis focusing on the identification of an order parameter in Monte Carlo simulations of dipolar systems on hexagonal lattices.
+
+After completing my Master’s Degree, I started a PhD in Electronics, Computer Science and Electrical Engineering within the Custom Computing and Programmable Systems group at the same University. During my doctoral years, I specialised in High Performance Computing and Data Processing, focusing on Graphics Processing Units (GPUs) and Field Programmable Gate Arrays (FPGAs) technologies to develop real time solutions for image analysis. 
+
+I joined the [Department of Oncology](https://www.oncology.ox.ac.uk/) in 2014, working as a postdoc in the [Computational Biology and Integrative Genomics](https://www.oncology.ox.ac.uk/research/research-group/computational-biology-and-integrative-genomics) group.
+
+## research summary
+
+My main research activity is related to the development and application of machine learning (ML) techniques to clinical cohorts. At the NDS, I study the contribution of insulin-like growth factors (IGFs) to prostate cancer biology.
+
+My current projects include:
+
+* To study the contribution of insulin-like growth factors (IGFs) to prostate cancer biology
+* The derivation of multi-omic classifiers in different cancer types
+* The identification of circulating biomarkers to improve radiotherapy effectiveness in glioblastoma
+* The development of novel robust and reproducible computational methodologies
