@@ -7,9 +7,9 @@ nav: true
 nav_order: 5
 ---
 
-During my postdoctoral time, I have had the chance to provide day-to-day supervision at MSc and PhD level, training junior lab members in statistics and bioinformatics.
+During my postdoctoral years, I have had the opportunity to train and supervise MSc and PhD students in statistics and bioinformatics.
 
-Moreover, I also had the opportunity to teach in graduate and international courses.
+In addition, I have been involved in teaching at various levels, including graduate and international courses.
 
 ### University of Oxford
 
