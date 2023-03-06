@@ -252,6 +252,7 @@ blockquote {
 
 .social {
   text-align: center;
+  border-top: 1px solid var(--global-divider-color);
   .contact-icons {
     font-size: 4rem;
     a {
