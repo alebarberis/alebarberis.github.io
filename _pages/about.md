@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.nds.ox.ac.uk/research/igf-group'>IGF Group</a>, <a href='https://www.nds.ox.ac.uk/'>NDS</a>, <a href='http://www.ox.ac.uk//'>University of Oxford</a>
+subtitle: 👨‍💻 Bioinformatician | Data Analyst <br> 👨‍🎓 Computer Science Engineer <br> <a href='https://www.nds.ox.ac.uk/research/igf-group'>IGF Group</a>, <a href='https://www.nds.ox.ac.uk/'>NDS</a>, <a href='http://www.ox.ac.uk//'>University of Oxford</a>
 
 profile:
   align: right
@@ -18,9 +18,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+<br>
 Hi everyone, my name is Alessandro and I am a senior bioinformatician working in the [Nuffield Department of Surgical Sciences](https://www.nds.ox.ac.uk/).
 
 My main research activity is related to the development and application of machine learning (ML) techniques to clinical cohorts.
+
+<br>
 
 ## biography
 
@@ -41,5 +44,7 @@ At the NDS, I am leading several research projects, including:
 * The derivation of multi-omics classifiers in different cancer types
 * The identification of circulating biomarkers to improve radiotherapy effectiveness in glioblastoma
 * The development of novel robust and reproducible computational methodologies
+
+<br>
 
 ------
