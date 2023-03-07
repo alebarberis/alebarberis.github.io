@@ -180,7 +180,7 @@ This allows us to check if everything is as we expected, or if we need further r
 
 ## 5 Stage and commit the changes
 
-Once you have made changes to your website and are happy with them, you need to commit those changes to GitHub. Commits are like snapshots of your repository at specific times and are the building blocks of "save points" within Git's version control. It's always good to check in which branch you are on before committing, since the changes are created on your current branch. We can do this by running the command:
+Once you have made changes to your website and are happy with them, you need to commit them. Commits are like snapshots of your repository at specific times and are the building blocks of "save points" within Git's version control. It's always good to check in which branch you are on before committing, since the changes are created on your current branch. We can do this by running the command:
 
 {% highlight bash %}
 git status
@@ -208,9 +208,17 @@ You can speed up the process using the `-a` option that allows to stage all the 
 git commit -am "descriptive commit message"
 {% endhighlight %}
 
-Once you have committed your changes, you are ready to build your website.
+## 6 Push your commits
 
-## 6 Deploy the website
+After committing your changes locally, you need to share them with the remote repository. This step is necessary to update the corresponding branch on the remote server. To upload all local branch commits to the remote, use the command `git push`:
+
+{% highlight bash %}
+git push
+{% endhighlight %}
+
+Once you have published your local changes to the remote repository, you are ready to build your website.
+
+## 7 Deploy the website
 
 Finally, we can deploy our website on GitHub. For doing so, the preferred way is by executing the following command:
 
@@ -228,7 +236,8 @@ This blog post was created using the following resources:
 * [Jekyll and Ruby's installation guide](https://jekyllrb.com/docs/installation/macos/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Markdown](https://www.markdownguide.org/)
-* [GitHub Pages](https://pages.github.com/)
 * [Git](https://git-scm.com/)
+* [Git Guide](https://github.com/git-guides)
+* [GitHub Pages](https://pages.github.com/)
 * [Why you should use bin/deploy](https://github.com/alshedivat/al-folio/issues/6)
 * [Why you shouldn’t use the macOS system Ruby](https://www.moncefbelyamani.com/why-you-shouldn-t-use-the-system-ruby-to-install-gems-on-a-mac/)
