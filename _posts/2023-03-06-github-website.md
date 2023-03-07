@@ -55,7 +55,7 @@ If not, you'll need to install them (see section below) before you can use [Jeky
 
 [Ruby](https://www.ruby-lang.org/en/) is a popular open-source programming language known for its dynamic and flexible nature. If you're interested in using Ruby, you'll need to install it on your system. Fortunately, there are several tools available to simplify the installation process, such as [Homebrew](https://brew.sh/) and [chruby](https://github.com/postmodern/chruby).
 
-If you're a macOS user, it's worth noting that while Ruby comes preinstalled on your machine, it's recommended to install a separate and newer version using a version manager like [chruby](https://github.com/postmodern/chruby) or [rvm](https://rvm.io/). This will ensure that you have access to the latest features and security updates. For my own installation process, I followed the [jekyll](https://jekyllrb.com/docs/installation/macos/) guide and used [chruby](https://github.com/postmodern/chruby).
+If you're a macOS user, it's worth noting that while Ruby comes preinstalled on your machine, it's recommended to install a separate and newer version using a version manager like [chruby](https://github.com/postmodern/chruby) or [rvm](https://rvm.io/). This will ensure that you have access to the latest features and security updates. For my own installation process, I followed the [Jekyll](https://jekyllrb.com/docs/installation/macos/) guide and used [chruby](https://github.com/postmodern/chruby).
 
 To check if [Ruby](https://www.ruby-lang.org/en/) is already installed on your system, you can run the `ruby -v` command in your terminal. If you see a version number displayed, you're good to go. Otherwise, you'll need to install [Ruby](https://www.ruby-lang.org/en/) before you can proceed with using it.
 
@@ -178,7 +178,39 @@ bundle exec jekyll serve
 
 This allows us to check if everything is as we expected, or if we need further refinement. After running the command, we can go to `http://localhost:4000/` on our web browser to see the website locally.
 
-## 5 Upload on GitHub
+## 5 Stage and commit the changes
+
+Once you have made changes to your website and are happy with them, you need to commit those changes to GitHub. Commits are like snapshots of your repository at specific times and are the building blocks of "save points" within Git's version control. It's always good to check in which branch you are on before committing, since the changes are created on your current branch. We can do this by running the command:
+
+{% highlight bash %}
+git status
+{% endhighlight %}
+
+In my case, the output confirms that I'm on the master branch. If you're on the correct branch, proceed to the next step.
+
+Before committing our changes, we need to add the files to the staging area. In fact, Git only looks to the staging area to determine what to commit. To stage files, run the command:
+
+{% highlight bash %}
+git add <FILENAME>
+{% endhighlight %}
+
+Once done, we can commit the files including a commit message by running the command `git commit` with the `-m` option:
+
+{% highlight bash %}
+git commit -m "descriptive commit message"
+{% endhighlight %}
+
+Remember that without staging any files the command `git commit` won't work. 
+
+You can speed up the process using the `-a` option that allows to stage all the files that are already being tracked by Git and commits them:
+
+{% highlight bash %}
+git commit -am "descriptive commit message"
+{% endhighlight %}
+
+Once you have committed your changes, you are ready to build your website.
+
+## 6 Deploy the website
 
 Finally, we can deploy our website on GitHub. For doing so, the preferred way is by executing the following command:
 
@@ -187,3 +219,16 @@ bin/deploy --user
 {% endhighlight %}
 
 If the GitHub Actions are properly setup, your personal website should be built and available in few minutes!
+
+## Resources
+
+This blog post was created using the following resources:
+
+* [Homebrew](https://brew.sh/)
+* [Jekyll and Ruby's installation guide](https://jekyllrb.com/docs/installation/macos/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Markdown](https://www.markdownguide.org/)
+* [GitHub Pages](https://pages.github.com/)
+* [Git](https://git-scm.com/)
+* [Why you should use bin/deploy](https://github.com/alshedivat/al-folio/issues/6)
+* [Why you shouldn’t use the macOS system Ruby](https://www.moncefbelyamani.com/why-you-shouldn-t-use-the-system-ruby-to-install-gems-on-a-mac/)
