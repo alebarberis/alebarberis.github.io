@@ -23,6 +23,7 @@
   type: time_table
   contents:
     - title: Senior Postdoctoral Researcher
+      group: Insulin-like Growth Factor (IGF) group
       institution: Nuffield Department of Surgical Sciences, University of Oxford, Oxford, United Kingdom
       year: 2022 - now
     - title: Lecturer in Bioinformatics for MSc in Precision Cancer Medicine
@@ -32,6 +33,7 @@
       institution: Department of Oncology, University of Oxford, Oxford, United Kingdom
       year: 2020 - 2021
     - title: Postdoctoral Researcher
+      group: Computational Biology and Integrative Genomics (CBIG) group
       institution: Department of Oncology, University of Oxford, Oxford, United Kingdom
       year: 2014-2022
 
