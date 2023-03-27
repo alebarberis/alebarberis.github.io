@@ -40,9 +40,12 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="https://github.com/alebarberis/nf-rnaseq/">nf-rnaseq</a>
+      year: 2023
+      description: Nextflow RNA-seq bioinformatics pipeline
     - title: <a href="https://alebarberis.github.io/sigscores/">sigscores</a>
       year: 2022-now
-      description: R package providing ready-to-use functions to compute summary scores.
+      description: R package providing ready-to-use functions to compute summary scores
 
 - title: Honors and Awards
   type: time_table
