@@ -19,6 +19,6 @@ In addition, I have been involved in teaching at various levels, including gradu
 
 ### International Courses
 
-* Assistant at the Wellcome Genome Campus Advanced Course: RNA transcriptomics (2018 - 2019)
+* Assistant for the Wellcome Genome Campus Advanced Course: RNA transcriptomics (2018 - 2019)
 * Lecturer for the Summer School on Data Fusion and High-Performance Computing onboard aircraft held at the University of Pavia, Italy (2011)
 
