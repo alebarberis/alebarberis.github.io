@@ -6,6 +6,59 @@
     - name: Languages
       value: Italian, English
 
+- title: Skills
+  type: map
+  contents:
+    - name: Programming Languages
+      value: R • Python • Java • bash • C • C++ • Matlab
+    - name: Bioinformatics
+      value: limma • DESeq2 • edgeR • clusterProfiler • biomaRt • Seurat • scanpy
+    - name: Machine Learning Frameworks
+      value: Scikit-learn • TensorFlow • Keras • PyTorch
+    - name: Data Visualisation
+      value: ggplot2 • plotly • DT • ComplexHeatmap • EnhancedVolcano
+    - name: Reporting
+      value: R markdown • Quarto • Jupyter Notebook
+    - name: Pipeline Development
+      value: Nextflow • Terra
+    - name: Version Control & Code Collaboration
+      value: Git • Bitbucket
+    - name: High Performance Computing
+      value: Google Cloud Platform • cluster • GPU • FPGA
+    - name: Database Development & Management
+      value: SQL • MySQL • MariaDB • MongoDB • Hibernate
+    - name: Front-end Development
+      value: HTML • CSS • JavaScript • jQuery
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior Computational Biologist
+      group: Computational Biology Team
+      institution: WhiteLab Genomics, Paris, France
+      year: 2024 - now
+    - title: Consultant
+      group: Insulin-like Growth Factor (IGF) group
+      institution: Nuffield Department of Surgical Sciences, University of Oxford, Oxford, United Kingdom
+      year: 2024 - now
+    - title: Academic Visitor
+      institution: Nuffield Department of Surgical Sciences, University of Oxford, Oxford, United Kingdom
+      year: 2024 - now   
+    - title: Senior Postdoctoral Researcher
+      group: Insulin-like Growth Factor (IGF) group
+      institution: Nuffield Department of Surgical Sciences, University of Oxford, Oxford, United Kingdom
+      year: 2022 - 2023
+    - title: Lecturer in Bioinformatics for MSc in Precision Cancer Medicine
+      institution: Department of Oncology, University of Oxford, Oxford, United Kingdom
+      year: 2020 - now
+    - title: Lecturer in Statistics for MSc in Radiation Biology
+      institution: Department of Oncology, University of Oxford, Oxford, United Kingdom
+      year: 2020 - 2021
+    - title: Postdoctoral Researcher
+      group: Computational Biology and Integrative Genomics (CBIG) group
+      institution: Department of Oncology, University of Oxford, Oxford, United Kingdom
+      year: 2014-2022
+
 - title: Education
   type: time_table
   contents:
@@ -18,24 +71,6 @@
     - title: BSc in Computer Science Engineering 
       institution: Department of Engineering, University of Pavia, Pavia, Italy
       year: 2007
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Senior Postdoctoral Researcher
-      group: Insulin-like Growth Factor (IGF) group
-      institution: Nuffield Department of Surgical Sciences, University of Oxford, Oxford, United Kingdom
-      year: 2022 - now
-    - title: Lecturer in Bioinformatics for MSc in Precision Cancer Medicine
-      institution: Department of Oncology, University of Oxford, Oxford, United Kingdom
-      year: 2020 - now
-    - title: Lecturer in Statistics for MSc in Radiation Biology
-      institution: Department of Oncology, University of Oxford, Oxford, United Kingdom
-      year: 2020 - 2021
-    - title: Postdoctoral Researcher
-      group: Computational Biology and Integrative Genomics (CBIG) group
-      institution: Department of Oncology, University of Oxford, Oxford, United Kingdom
-      year: 2014-2022
 
 - title: Open Source Projects
   type: time_table
@@ -60,7 +95,7 @@
       items: 
         - PhD Scholarship funded by the Italian Ministry of Research and Education
 
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
     - title: Computational Cancer Biology
@@ -70,9 +105,10 @@
     - title: Prostate Cancer Biology
       items: 
         - Identification of insulin-like growth factors' (IGFs) contribution to prostate cancer biology
-    - title: Machine Learning
+    - title: Data Analysis & Machine Learning
       items: 
         - Development of novel robust and reproducible computational methodologies
+        - Multimodal data integration
 
 - title: Other Interests
   type: list
