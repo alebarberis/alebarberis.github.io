@@ -15,6 +15,8 @@
       value: limma • DESeq2 • edgeR • clusterProfiler • biomaRt • Seurat • scanpy
     - name: Machine Learning Frameworks
       value: Scikit-learn • TensorFlow • Keras • PyTorch
+    - name: Data Manipulation
+      value: data.table • dplyr • stringr • Pandas • NumPy • Polars
     - name: Data Visualisation
       value: ggplot2 • plotly • DT • ComplexHeatmap • EnhancedVolcano
     - name: Reporting
@@ -24,9 +26,9 @@
     - name: Version Control & Code Collaboration
       value: Git • Bitbucket
     - name: High Performance Computing
-      value: Google Cloud Platform • cluster • GPU • FPGA
+      value: Google Cloud Platform • Cluster • GPU • FPGA
     - name: Database Development & Management
-      value: SQL • MySQL • MariaDB • MongoDB • Hibernate
+      value: SQL • MySQL • PostgreSQL • MariaDB • MongoDB • Hibernate
     - name: Front-end Development
       value: HTML • CSS • JavaScript • jQuery
 
@@ -44,6 +46,9 @@
     - title: Academic Visitor
       institution: Nuffield Department of Surgical Sciences, University of Oxford, Oxford, United Kingdom
       year: 2024 - now   
+    - title: Consultant
+      institution: Senya Therapeutics
+      year: 2023 - 2023   
     - title: Senior Postdoctoral Researcher
       group: Insulin-like Growth Factor (IGF) group
       institution: Nuffield Department of Surgical Sciences, University of Oxford, Oxford, United Kingdom
@@ -113,4 +118,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Reading novels, Playing the guitar
+    - <u>Hobbies:</u> Reading novels, playing the guitar, cooking, visiting museums and art galleries
